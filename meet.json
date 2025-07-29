@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Marketing Meetup",
+        "host": "Richard F. and Elsa B.",
+        "date":"13th August 2025",
+        "day":"Wednesday",
+        "beguningTime": " 5:00PM",
+        "endingTime": "6:10PM",
+        "mode": "Online",
+        "detail": "Monthly online learning session discussing the latest marketing trends, tech, and AI; includes introductions, discussion, and Q&A",
+        "restriction": "online registration required",
+        "website": "placeholdermeet.com",
+        "price": "Free"
+    },
+
+    {
+        "title": "Key Marketing Org Design Trends That Accelerate the CMO’s Growth Agenda",
+        "host": "Gartner (Marketing & Communications)",
+        "date":"14th August 2025",
+        "day":"Thursday",
+        "beginingTime": " 4:00PM",
+        "endingTime": "6:00PM",
+        "mode": "Online",
+        "detail": "Complimentary Gartner webinar exploring marketing organizational design trends to help accelerate the CMO's strategic agenda",
+        "restriction": "online registration required",
+        "website": "placeholderlink.com",
+        "price": "Free"
+    },
+
+    {
+        "title": "Brand Storytelling Summit",
+        "host": "Aman Kapoor",
+        "date":"5th August 2025",
+        "day":"Tuesday",
+        "beginingTime": "10AM",
+        "endingTime": "1:00PM",
+        "mode": "Offline",
+        "address":  "Conference Hall, Hotel Delhi Grand, New Delhi, India",
+        "city": "New Delhi",
+        "detail": "Half day workshop emphasizing brand narratives, local consumer engagement strategies, and social media storytelling. Includes panels and networking.",
+        "dressCode":"Business casual",
+        "restriction": "Limited to industry professionals (100 seats)",
+        "price": "₹1,000"
+    },
+
+     {
+        "title": "Performance Marketing Lab",
+        "host": "Priya Menon",
+        "date":"12th August 2025",
+        "day":"Tuesday",
+        "beginingTime": "2PM",
+        "endingTime": "5PM",
+        "mode": "Offline",
+        "address": "Co-Working Café, Bengaluru, India",
+        "city": "Bengaluru",
+        "detail": " Interactive lab session around performance marketing tactics, influencer campaigns and SEO case studies rooted in Indian regional markets.",
+        "dressCode":"Smart casual",
+        "restriction": "₹500 entry; refreshments included",
+        "price": "₹500"
+    }
+
+]
