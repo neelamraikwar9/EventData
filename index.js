@@ -1,5 +1,5 @@
 const { initializeDB } = require("./db.connect");
-// const fs = require("fs");
+const fs = require("fs");
 const Meet = require("./meet.model");
 
 
@@ -17,10 +17,10 @@ const corsOptions = {
 
 initializeDB();
 
-// const jsonData = fs.readFileSync("meet.json", "utf-8");
-// console.log(jsonData)
-// const meetsData = JSON.parse(jsonData);
-// console.log(meetsData)
+const jsonData = fs.readFileSync("meet.json", "utf-8");
+console.log(jsonData)
+const meetsData = JSON.parse(jsonData);
+console.log(meetsData)
 
 function seedData(){
     try{
@@ -39,7 +39,8 @@ function seedData(){
                 eventDressCode: meetData.dressCode,
                 eventRestriction: meetData.restriction,
                 eventWebsite: meetData.website,
-                eventPrice:  meetData.price
+                eventPrice:  meetData.price,
+                eventImages: meetData.images
             });
 
             // console.log(newMeet.eventTitle)
@@ -122,17 +123,17 @@ function seedData(){
     }
     // createMeets(newMeet2)
 
-//     async function deleteMeetById(meetId){
-//         console.log( "meet ID:", meetId)
-//         try{
-//             const delMeet = await Meet.findByIdAndDelete(meetId)
-//             console.log("data is deleted; ", delMeet)
+    async function deleteMeetById(meetId){
+        console.log( "meet ID:", meetId)
+        try{
+            const delMeet = await Meet.findByIdAndDelete(meetId)
+            console.log("data is deleted; ", delMeet)
 
-//         } catch(error){
-//             console.log("Error in deleting", error)
-//         }
-//     }
-// // deleteMeetById("68861558dc12f6d3fb7a950d")
+        } catch(error){
+            console.log("Error in deleting", error)
+        }
+    }
+// deleteMeetById("68864acaf0e90080098c9a30")
 
 
 //get meet by title;

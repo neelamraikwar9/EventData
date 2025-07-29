@@ -1,5 +1,5 @@
 [
-    {   "id": 1,
+    {  
         "title": "Marketing Meetup",
         "host": "Richard F. and Elsa B.",
         "date":"13th August 2025",
@@ -15,7 +15,6 @@
     },
 
     {
-        "id": 2,
         "title": "Key Marketing Org Design Trends That Accelerate the CMO’s Growth Agenda",
         "host": "Gartner (Marketing & Communications)",
         "date":"14th August 2025",
@@ -31,7 +30,6 @@
     },
 
     {
-        "id": 3,
         "title": "Brand Storytelling Summit",
         "host": "Aman Kapoor",
         "date":"5th August 2025",
@@ -49,7 +47,6 @@
     },
 
     {
-        "id": 4,
         "title": "Performance Marketing Lab",
         "host": "Priya Menon",
         "date":"12th August 2025",
@@ -67,7 +64,6 @@
     },
 
     {
-        "id": 5,
         "title": "Retail Marketing Analytics Workshop",
         "host": "Sunita Rao",
         "date": "20th August 2025",
@@ -85,7 +81,6 @@
     },
 
     {
-        "id": 6,
         "title": "Key Marketing Org Design Trends",
         "host": "Gartner (Marketing & Communications)",
         "date": "14th August 2025",

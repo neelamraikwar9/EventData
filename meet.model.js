@@ -59,6 +59,10 @@ const meetSchema = new mongoose.Schema({
      eventPrice: {
          type: String
     },
+
+    eventImages: {
+        type: String
+    }
     
 },
 
