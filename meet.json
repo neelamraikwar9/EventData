@@ -14,8 +14,25 @@
         "images": "./images/1st.jpg"
     },
 
+     {
+        "title": "Performance Marketing Lab",
+        "host": "Priya Menon",
+        "date":"12th August 2025",
+        "day":"Tuesday",
+        "beginingTime": "2PM",
+        "endingTime": "5PM",
+        "mode": "Offline",
+        "address": "Co-Working Café, Bengaluru, India",
+        "city": "Bengaluru",
+        "detail": " Interactive lab session around performance marketing tactics, influencer campaigns and SEO case studies rooted in Indian regional markets.",
+        "dressCode":"Smart casual",
+        "restriction": "₹500 entry; refreshments included",
+        "price": "₹500",
+        "images": "./images/2nd.jpg"
+    },
+
     {
-        "title": "Key Marketing Org Design Trends That Accelerate the CMO’s Growth Agenda",
+        "title": "Key Marketing Org Design Trends",
         "host": "Gartner (Marketing & Communications)",
         "date":"14th August 2025",
         "day":"Thursday",
@@ -26,7 +43,7 @@
         "restriction": "online registration required",
         "website": "placeholderlink.com",
         "price": "Free",
-        "images": "./images/2nd.png"
+        "images": "./images/3rd.png"
     },
 
     {
@@ -43,23 +60,6 @@
         "dressCode":"Business casual",
         "restriction": "Limited to industry professionals (100 seats)",
         "price": "₹1,000",
-        "images": "./images/3rd.png"
-    },
-
-    {
-        "title": "Performance Marketing Lab",
-        "host": "Priya Menon",
-        "date":"12th August 2025",
-        "day":"Tuesday",
-        "beginingTime": "2PM",
-        "endingTime": "5PM",
-        "mode": "Offline",
-        "address": "Co-Working Café, Bengaluru, India",
-        "city": "Bengaluru",
-        "detail": " Interactive lab session around performance marketing tactics, influencer campaigns and SEO case studies rooted in Indian regional markets.",
-        "dressCode":"Smart casual",
-        "restriction": "₹500 entry; refreshments included",
-        "price": "₹500",
         "images": "./images/4th.jpg"
     },
 
@@ -81,16 +81,16 @@
     },
 
     {
-        "title": "Key Marketing Org Design Trends",
-        "host": "Gartner (Marketing & Communications)",
-        "date": "14th August 2025",
-        "day":"Thursday",
-        "beginingTime": " 4:00PM",
-        "endingTime": "6:00PM",
+        "title": "AI Driven Campaign Workshop",
+        "host": "Callen Dogh",
+        "date": "18th August 2025",
+        "day":"Monday",
+        "beginingTime": " 3:00PM",
+        "endingTime": "5:00PM",
         "mode": "Online",
-        "detail": "Complimentary Gartner webinar exploring marketing organizational design trends to help accelerate the CMO's strategic agenda",
-        "restriction": "online registration required",
-        "eventWebsite": "placeholderlink.com",
+        "detail": "Interactive hands on session where participants follow along with an AI powered campaign template. Includes present materials, breakout room exercises for live audience work, and group debrief. Limited to ensure quality, emphasizes workshop-style delivery.",
+        "restriction": "Registration required; ₹500 for workbook and materials",
+        "eventWebsite": "placeholdermeet.com",
         "eventPrice": "Free",
         "images": "./images/6th.jpg"
     }

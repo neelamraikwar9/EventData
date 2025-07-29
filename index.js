@@ -20,7 +20,7 @@ initializeDB();
 // const jsonData = fs.readFileSync("meet.json", "utf-8");
 // console.log(jsonData)
 // const meetsData = JSON.parse(jsonData);
-// console.log(meetsData)
+// // console.log(meetsData)
 
 // function seedData(){
 //     try{
@@ -29,7 +29,7 @@ initializeDB();
 //                 eventTitle: meetData.title,
 //                 eventHost: meetData.host,
 //                 eventDate: meetData.date,
-//                 deventDay: meetData.day,
+//                 eventDay: meetData.day,
 //                 eventBeginingTime: meetData.beginingTime,
 //                 eventEndingTime: meetData.endingTime,
 //                 eventMode: meetData.mode,
@@ -70,6 +70,23 @@ initializeDB();
 //         eventPrice: "₹1,200"
 //     }
 
+const newMeet =  {
+        eventTitle: "Performance Marketing Lab",
+        eventHost: "Priya Menon",
+        eventDate:"12th August 2025",
+        eventDay:"Tuesday",
+        eventBeginingTime: "2PM",
+        eventEndingTime: "5PM",
+        eventMode: "Offline",
+        eventAddress: "Co-Working Café, Bengaluru, India",
+        eventCity: "Bengaluru",
+        eventDetail: " Interactive lab session around performance marketing tactics, influencer campaigns and SEO case studies rooted in Indian regional markets.",
+        eventDressCode:"Smart casual",
+        eventRestriction: "₹500 entry; refreshments included",
+        eventPrice: "₹500",
+        eventImages: "./images/2nd.jpg"
+    }
+
     async function createMeet(newMeet){
         try{
             const meet = new Meet(newMeet)
@@ -96,31 +113,31 @@ initializeDB();
     //     eventPrice: "Free"
     // }
 
-    const newMeet2 = 
-    {
-        eventTitle: "Key Marketing Org Design Trends",
-        eventHost: "Gartner (Marketing & Communications)",
-        eventDate: "14th August 2025",
-        eventDay:"Thursday",
-        eventBeginingTime: " 4:00PM",
-        eventEndingTime: "6:00PM",
-        eventMode: "Online",
-        eventDetail: "Complimentary Gartner webinar exploring marketing organizational design trends to help accelerate the CMO's strategic agenda",
-        eventRestriction: "online registration required",
-        eventWebsite: "placeholderlink.com",
-        eventPrice: "Free"
-    }
+    // const newMeet2 = 
+    // {
+    //     eventTitle: "Key Marketing Org Design Trends",
+    //     eventHost: "Gartner (Marketing & Communications)",
+    //     eventDate: "14th August 2025",
+    //     eventDay:"Thursday",
+    //     eventBeginingTime: " 4:00PM",
+    //     eventEndingTime: "6:00PM",
+    //     eventMode: "Online",
+    //     eventDetail: "Complimentary Gartner webinar exploring marketing organizational design trends to help accelerate the CMO's strategic agenda",
+    //     eventRestriction: "online registration required",
+    //     eventWebsite: "placeholderlink.com",
+    //     eventPrice: "Free"
+    // }
 
-    async function createMeets(newMeet2){
-        try{
-            const meet2 = new Meet(newMeet2)
-            const saveMeet2 = await meet2.save()
-            console.log("New Movie Data: ", saveMeet2)
+    // async function createMeets(newMeet2){
+    //     try{
+    //         const meet2 = new Meet(newMeet2)
+    //         const saveMeet2 = await meet2.save()
+    //         console.log("New Movie Data: ", saveMeet2)
 
-        } catch(error){
-            throw error
-        }
-    }
+    //     } catch(error){
+    //         throw error
+    //     }
+    // }
     // createMeets(newMeet2)
 
     async function deleteMeetById(meetId){
@@ -133,7 +150,7 @@ initializeDB();
             console.log("Error in deleting", error)
         }
     }
-// deleteMeetById("68864acaf0e90080098c9a30")
+// deleteMeetById("6888b6f4cafe384fa21055e0")
 
 
 //get meet by title;
