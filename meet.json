@@ -1,5 +1,5 @@
 [
-    {
+    {   "id": 1,
         "title": "Marketing Meetup",
         "host": "Richard F. and Elsa B.",
         "date":"13th August 2025",
@@ -10,10 +10,12 @@
         "detail": "Monthly online learning session discussing the latest marketing trends, tech, and AI; includes introductions, discussion, and Q&A",
         "restriction": "online registration required",
         "website": "placeholdermeet.com",
-        "price": "Free"
+        "price": "Free",
+        "images": "./images/1st.jpg"
     },
 
     {
+        "id": 2,
         "title": "Key Marketing Org Design Trends That Accelerate the CMO’s Growth Agenda",
         "host": "Gartner (Marketing & Communications)",
         "date":"14th August 2025",
@@ -24,10 +26,12 @@
         "detail": "Complimentary Gartner webinar exploring marketing organizational design trends to help accelerate the CMO's strategic agenda",
         "restriction": "online registration required",
         "website": "placeholderlink.com",
-        "price": "Free"
+        "price": "Free",
+        "images": "./images/2nd.png"
     },
 
     {
+        "id": 3,
         "title": "Brand Storytelling Summit",
         "host": "Aman Kapoor",
         "date":"5th August 2025",
@@ -40,10 +44,12 @@
         "detail": "Half day workshop emphasizing brand narratives, local consumer engagement strategies, and social media storytelling. Includes panels and networking.",
         "dressCode":"Business casual",
         "restriction": "Limited to industry professionals (100 seats)",
-        "price": "₹1,000"
+        "price": "₹1,000",
+        "images": "./images/3rd.png"
     },
 
-     {
+    {
+        "id": 4,
         "title": "Performance Marketing Lab",
         "host": "Priya Menon",
         "date":"12th August 2025",
@@ -56,7 +62,43 @@
         "detail": " Interactive lab session around performance marketing tactics, influencer campaigns and SEO case studies rooted in Indian regional markets.",
         "dressCode":"Smart casual",
         "restriction": "₹500 entry; refreshments included",
-        "price": "₹500"
+        "price": "₹500",
+        "images": "./images/4th.jpg"
+    },
+
+    {
+        "id": 5,
+        "title": "Retail Marketing Analytics Workshop",
+        "host": "Sunita Rao",
+        "date": "20th August 2025",
+        "day":"Wednesday",
+        "beginingTime": "9AM",
+        "endingTime": "12PM",
+        "mode": "Offline",
+        "address": "Hotel Grand Vigo, Mumbai, India",
+        "city": "Mumbai",
+        "detail": "Breakfast networking followed by an analytics-focused master class aimed at retail & FMCG marketers; panel plus hands on analytics demos.",
+        "dressCode":"Formal/business",
+        "restriction": "Open to marketing professionals only; prior registration required",
+        "price": "₹1,200",
+        "images": "./images/5th.jpg"
+    },
+
+    {
+        "id": 6,
+        "title": "Key Marketing Org Design Trends",
+        "host": "Gartner (Marketing & Communications)",
+        "date": "14th August 2025",
+        "day":"Thursday",
+        "beginingTime": " 4:00PM",
+        "endingTime": "6:00PM",
+        "mode": "Online",
+        "detail": "Complimentary Gartner webinar exploring marketing organizational design trends to help accelerate the CMO's strategic agenda",
+        "restriction": "online registration required",
+        "eventWebsite": "placeholderlink.com",
+        "eventPrice": "Free",
+        "images": "./images/6th.jpg"
     }
+    
 
 ]
