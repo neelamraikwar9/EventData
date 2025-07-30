@@ -25,10 +25,10 @@ const meetSchema = new mongoose.Schema({
         type: String,
     },
 
-    eventMode: [{
+    eventMode: {
         type: String,  
         enum: ["Offline", "Online", "Both"]
-    }],
+    },
 
     eventAddress: {
         type: String,  
