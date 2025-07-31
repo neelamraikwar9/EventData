@@ -40,7 +40,7 @@ initializeDB();
 //                 eventRestriction: meetData.restriction,
 //                 eventWebsite: meetData.website,
 //                 eventPrice:  meetData.price,
-//                 eventImages: meetData.images
+//                 eventImage: meetData.image
 //             });
 
 //             // console.log(newMeet.eventTitle)

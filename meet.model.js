@@ -56,11 +56,11 @@ const meetSchema = new mongoose.Schema({
         type: String
     },
 
-     eventPrice: {
+    eventPrice: {
          type: String
     },
 
-    eventImages: {
+    eventImage: {
         type: String
     }
     

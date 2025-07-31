@@ -4,14 +4,14 @@
         "host": "Richard F. and Elsa B.",
         "date":"13th August 2025",
         "day":"Wednesday",
-        "beguningTime": " 5:00PM",
+        "beginingTime": " 5:00PM",
         "endingTime": "6:10PM",
         "mode": "Online",
         "detail": "Monthly online learning session discussing the latest marketing trends, tech, and AI; includes introductions, discussion, and Q&A",
         "restriction": "online registration required",
         "website": "placeholdermeet.com",
         "price": "Free",
-        "images": "./images/1st.jpg"
+        "image": "./images/1st.jpg"
     },
 
      {
@@ -28,7 +28,7 @@
         "dressCode":"Smart casual",
         "restriction": "₹500 entry; refreshments included",
         "price": "₹500",
-        "images": "./images/2nd.jpg"
+        "image": "./images/2nd.jpg"
     },
 
     {
@@ -43,7 +43,7 @@
         "restriction": "online registration required",
         "website": "placeholderlink.com",
         "price": "Free",
-        "images": "./images/3rd.png"
+        "image": "./images/3rd.png"
     },
 
     {
@@ -60,7 +60,7 @@
         "dressCode":"Business casual",
         "restriction": "Limited to industry professionals (100 seats)",
         "price": "₹1,000",
-        "images": "./images/4th.jpg"
+        "image": "./images/4th.jpg"
     },
 
     {
@@ -77,7 +77,7 @@
         "dressCode":"Formal/business",
         "restriction": "Open to marketing professionals only; prior registration required",
         "price": "₹1,200",
-        "images": "./images/5th.jpg"
+        "image": "./images/5th.jpg"
     },
 
     {
@@ -92,7 +92,7 @@
         "restriction": "Registration required; ₹500 for workbook and materials",
         "eventWebsite": "placeholdermeet.com",
         "eventPrice": "Free",
-        "images": "./images/6th.jpg"
+        "image": "./images/6th.jpg"
     }
     
 
