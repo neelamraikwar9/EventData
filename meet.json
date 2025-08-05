@@ -11,7 +11,7 @@
         "restriction": "online registration required",
         "website": "placeholdermeet.com",
         "price": "Free",
-        "image": "./images/1st.jpg"
+        "image": "https://i.imghippo.com/files/UPUH6448OY.png"
     },
 
      {
@@ -28,7 +28,7 @@
         "dressCode":"Smart casual",
         "restriction": "₹500 entry; refreshments included",
         "price": "₹500",
-        "image": "./images/2nd.jpg"
+        "image": "https://i.imghippo.com/files/yzVd1695Tpk.png"
     },
 
     {
@@ -43,7 +43,7 @@
         "restriction": "online registration required",
         "website": "placeholderlink.com",
         "price": "Free",
-        "image": "./images/3rd.png"
+        "image": "https://i.imghippo.com/files/hOg7543CbI.png"
     },
 
     {
@@ -60,7 +60,7 @@
         "dressCode":"Business casual",
         "restriction": "Limited to industry professionals (100 seats)",
         "price": "₹1,000",
-        "image": "./images/4th.jpg"
+        "image": "https://i.imghippo.com/files/cLl5602ffU.png"
     },
 
     {
@@ -77,7 +77,7 @@
         "dressCode":"Formal/business",
         "restriction": "Open to marketing professionals only; prior registration required",
         "price": "₹1,200",
-        "image": "./images/5th.jpg"
+        "image": "https://i.imghippo.com/files/ntZ6852WI.png"
     },
 
     {
@@ -92,7 +92,7 @@
         "restriction": "Registration required; ₹500 for workbook and materials",
         "eventWebsite": "placeholdermeet.com",
         "eventPrice": "Free",
-        "image": "./images/6th.jpg"
+        "image": "https://i.imghippo.com/files/wWx3000Xz.png"
     }
     
 

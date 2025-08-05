@@ -1,5 +1,5 @@
 const { initializeDB } = require("./db.connect");
-// const fs = require("fs");
+const fs = require("fs");
 const Meet = require("./meet.model");
 
 
@@ -17,42 +17,42 @@ const corsOptions = {
 
 initializeDB();
 
-// const jsonData = fs.readFileSync("meet.json", "utf-8");
-// console.log(jsonData)
-// const meetsData = JSON.parse(jsonData);
+const jsonData = fs.readFileSync("meet.json", "utf-8");
+console.log(jsonData)
+const meetsData = JSON.parse(jsonData);
 // // console.log(meetsData)
 
-// function seedData(){
-//     try{
-//         for(const meetData of meetsData){
-//             const newMeet = new Meet({
-//                 eventTitle: meetData.title,
-//                 eventHost: meetData.host,
-//                 eventDate: meetData.date,
-//                 eventDay: meetData.day,
-//                 eventBeginingTime: meetData.beginingTime,
-//                 eventEndingTime: meetData.endingTime,
-//                 eventMode: meetData.mode,
-//                 eventAddress: meetData.address,
-//                 eventCity: meetData.city,
-//                 eventDetail: meetData.detail,
-//                 eventDressCode: meetData.dressCode,
-//                 eventRestriction: meetData.restriction,
-//                 eventWebsite: meetData.website,
-//                 eventPrice:  meetData.price,
-//                 eventImage: meetData.image
-//             });
+function seedData(){
+    try{
+        for(const meetData of meetsData){
+            const newMeet = new Meet({
+                eventTitle: meetData.title,
+                eventHost: meetData.host,
+                eventDate: meetData.date,
+                eventDay: meetData.day,
+                eventBeginingTime: meetData.beginingTime,
+                eventEndingTime: meetData.endingTime,
+                eventMode: meetData.mode,
+                eventAddress: meetData.address,
+                eventCity: meetData.city,
+                eventDetail: meetData.detail,
+                eventDressCode: meetData.dressCode,
+                eventRestriction: meetData.restriction,
+                eventWebsite: meetData.website,
+                eventPrice:  meetData.price,
+                eventImage: meetData.image
+            });
 
-//             // console.log(newMeet.eventTitle)
-//             newMeet.save();
-//         }
+            // console.log(newMeet.eventTitle)
+            newMeet.save();
+        }
 
-//     } catch(error){
-//         console.log("Error in seeding the data", error);
-//     }
-// }
+    } catch(error){
+        console.log("Error in seeding the data", error);
+    }
+}
 
-// seedData();
+seedData();
 
 // const newMeet =  {
 //         eventTitle: "Retail Marketing Analytics Workshop",
